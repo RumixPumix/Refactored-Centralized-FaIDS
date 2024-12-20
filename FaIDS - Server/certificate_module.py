@@ -104,7 +104,7 @@ def certificate_handler(cert_dir="certificates"):
         if not (os.path.exists(cert_path) and os.path.exists(key_path)) or has_certificate_expired(cert_path):
             log("Certificate has expired or doesn't exist. Creating a new one.", 2)
             try:
-                key_path, cert_path = create_certificate()
+                key_path, cert_path = create_certificate(cert_path, key_path)
             except ValueError as error:
                 key_path, cert_path = False, False
         if key_path and cert_path:

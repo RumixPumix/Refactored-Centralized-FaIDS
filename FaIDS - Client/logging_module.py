@@ -6,7 +6,7 @@ def traceback_func():
         debug_mode = True
     if debug_mode == True:
         tb = traceback.format_exc()
-        log(tb, 4)
+        return tb
 
 def get_current_date():
             current_date = datetime.now()
@@ -70,9 +70,15 @@ def log(message, opcode=3):
     message_to_log = f"[{get_current_date_time()}] [{opcodes[opcode]}]: {message}"
     message_to_log_colored = f"{color_codes[opcode]}[{get_current_date_time()}] [{opcodes[opcode]}]: {message}{colorama.Fore.WHITE}"
     print(message_to_log_colored)
-    if opcode in [4, 1]:
-         traceback_func()
     write_log_to_file(message_to_log)
+    if opcode in [4]:
+        tb = traceback_func()
+        if not tb or tb is None or "None" in tb:
+            return
+        trace_back_message = f"{color_codes[opcode]}[{get_current_date_time()}] [{opcodes[opcode]}]: {tb}{colorama.Fore.WHITE}"
+        print()
+        print(trace_back_message)
+        write_log_to_file(trace_back_message)
 
 def clear_console():
     if platform.system() == "Windows":

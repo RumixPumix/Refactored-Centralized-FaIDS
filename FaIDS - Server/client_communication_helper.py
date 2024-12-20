@@ -4,7 +4,19 @@ import json
 
 #Core functions
 
+def is_socket_active(socket_obj):
+    try:
+        # Check if the socket is an instance of ssl.SSLSocket and if it's still open
+        return socket_obj.fileno() != -1
+    except Exception as e:
+        # If an error occurs, the socket might be invalid
+        log(f"Error checking socket: {e}", 1)
+        return False
+
 def send_to_client(socket, action, sub_action, data):
+    if not is_socket_active(socket):
+        log("Connection to the server was lost!", 1)
+        return None
     """
     Sends a structured message to the client.
 
@@ -74,6 +86,9 @@ def send_to_client(socket, action, sub_action, data):
     return None
 
 def receive_from_client(socket, extracted=True):
+    if not is_socket_active(socket):
+        log("Connection to the client was lost!", 1)
+        return None
     """
     Receives and deserializes data from the client.
 
@@ -148,3 +163,44 @@ def extract_data_from_client_response(client_response):
         return False
     
 #Predefined functions
+
+def transfer_file(from_socket, to_socket):
+    """
+    Transfers a file from the sender to the receiver.
+
+    Args:
+        receiver_socket: The socket object of the receiver.
+        sender_socket: The socket object of the sender.
+    """
+    log("Initiating file transfer...", 4)
+
+    file_metadata = receive_from_client(from_socket)
+    if not file_metadata:
+        log("Failed to receive file metadata.", 2)
+        return
+    filename = file_metadata.get("filename", None)
+    filesize = file_metadata.get("filesize", None)
+    if not filename or not filesize:
+        log("Invalid file metadata received.", 2)
+        return
+    log(f"Received file metadata: {filename} - {filesize} bytes", 4)
+    if send_to_client(to_socket, 2, 1, file_metadata):
+        log("File metadata sent successfully.", 4)
+
+    chunk_size = get_optimal_chunk_size(filesize)
+    log(f"Starting file transfer: {filename} ({filesize} bytes) in chunks of {chunk_size} bytes", 3)
+
+    transferred = 0
+    while transferred < filesize:
+        data = from_socket.recv(min(chunk_size, filesize - transferred))
+        if not data:
+            log("Connection lost during file transfer.", 1)
+            break
+        to_socket.sendall(data)
+        transferred += len(data)
+
+    # Log completion status
+    if transferred == filesize:
+        log(f"File transfer completed: {filename} ({transferred}/{filesize} bytes)", 3)
+    else:
+        log(f"File transfer incomplete: {filename} ({transferred}/{filesize} bytes)", 1)

@@ -1,8 +1,3 @@
-import json
-import os
-import re
-from logging_module import log
-config_updated_bool = False
 
 # Logging function
 
@@ -170,6 +165,13 @@ def configuration_handler():
         configuration = configuration_first_time_setup()
         apply_current_config(configuration)
         return configuration
+
+
+import json
+import os
+import re
+from logging_module import log
+config_updated_bool = False
 
 # Run the configuration handler
 if __name__ == "__main__":

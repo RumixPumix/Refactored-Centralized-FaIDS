@@ -1,0 +1,582 @@
+[2024-12-20 00:50:32] [INFO]: Configuration applied successfully.
+[2024-12-20 00:50:33] [INFO]: Successfully loaded certificates.
+[2024-12-20 00:50:33] [INFO]: Server started, listening on: 192.168.1.129:5000
+[2024-12-20 00:50:47] [INFO]: Connection from ('192.168.1.129', 53326)
+[2024-12-20 00:50:47] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Expected data length: 61 bytes
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Received 61 bytes from client.
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Deserialized data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Preparing data for sending to client...
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Formatted data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Serializing the data...
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Sending the serialized data length via socket...
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Sending the serialized data via socket...
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Data sent successfully to client.
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [INFO]: Client admin - 192.168.1.129:53326 authenticated successfully.
+[2024-12-20 00:50:47] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [ERROR]: No data received from client (connection may be closed).
+[31m[2024-12-20 00:50:47] [ERROR]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [INFO]: Client admin disconnected.
+[2024-12-20 00:53:27] [INFO]: Configuration applied successfully.
+[2024-12-20 00:53:27] [INFO]: Successfully loaded certificates.
+[2024-12-20 00:53:27] [INFO]: Server started, listening on: 192.168.1.129:5000
+[2024-12-20 00:53:35] [INFO]: Connection from ('192.168.1.129', 53411)
+[2024-12-20 00:53:35] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Expected data length: 61 bytes
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Received 61 bytes from client.
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Deserialized data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Preparing data for sending to client...
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Formatted data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Serializing the data...
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Sending the serialized data length via socket...
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Sending the serialized data via socket...
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Data sent successfully to client.
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [INFO]: Client admin - 192.168.1.129:53411 authenticated successfully.
+[2024-12-20 00:53:35] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [ERROR]: No data received from client (connection may be closed).
+[31m[2024-12-20 00:53:35] [ERROR]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [INFO]: Client admin disconnected.
+[2024-12-20 00:55:51] [INFO]: Configuration applied successfully.
+[2024-12-20 00:55:51] [INFO]: Successfully loaded certificates.
+[2024-12-20 00:55:51] [INFO]: Server started, listening on: 192.168.1.129:5000
+[2024-12-20 01:03:35] [INFO]: Configuration applied successfully.
+[2024-12-20 01:03:35] [INFO]: Successfully loaded certificates.
+[2024-12-20 01:03:35] [INFO]: Server started, listening on: 192.168.1.129:5000
+[2024-12-20 01:03:45] [INFO]: Connection from ('192.168.1.129', 53537)
+[2024-12-20 01:03:45] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Expected data length: 61 bytes
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Received 61 bytes from client.
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Deserialized data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Preparing data for sending to client...
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Formatted data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Sending the serialized data length via socket...
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Sending the serialized data via socket...
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Data sent successfully to client.
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [INFO]: Client admin - 192.168.1.129:53537 authenticated successfully.
+[2024-12-20 01:03:45] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [ERROR]: No data received from client (connection may be closed).
+[31m[2024-12-20 01:03:45] [ERROR]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [INFO]: Client admin disconnected.
+[2024-12-20 01:05:27] [INFO]: Configuration applied successfully.
+[2024-12-20 01:05:27] [INFO]: Successfully loaded certificates.
+[2024-12-20 01:05:27] [INFO]: Server started, listening on: 192.168.1.129:5000
+[2024-12-20 01:05:30] [INFO]: Connection from ('192.168.1.129', 53558)
+[2024-12-20 01:05:30] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Expected data length: 61 bytes
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Received 61 bytes from client.
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Deserialized data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Preparing data for sending to client...
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Formatted data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Sending the serialized data length via socket...
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Sending the serialized data via socket...
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Data sent successfully to client.
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [INFO]: Client admin - 192.168.1.129:53558 authenticated successfully.
+[2024-12-20 01:05:30] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [ERROR]: No data received from client (connection may be closed).
+[31m[2024-12-20 01:05:30] [ERROR]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [INFO]: Client admin disconnected.
+[2024-12-20 01:07:17] [INFO]: Configuration applied successfully.
+[2024-12-20 01:07:17] [INFO]: Successfully loaded certificates.
+[2024-12-20 01:07:17] [INFO]: Server started, listening on: 192.168.1.129:5000
+[2024-12-20 01:07:21] [INFO]: Connection from ('192.168.1.129', 53592)
+[2024-12-20 01:07:21] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Expected data length: 61 bytes
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Received 61 bytes from client.
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Deserialized data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Preparing data for sending to client...
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Formatted data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Sending the serialized data length via socket...
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Sending the serialized data via socket...
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Data sent successfully to client.
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [INFO]: Client admin - 192.168.1.129:53592 authenticated successfully.
+[2024-12-20 01:07:21] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [ERROR]: No data received from client (connection may be closed).
+[31m[2024-12-20 01:07:21] [ERROR]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [INFO]: Client admin disconnected.
+[2024-12-20 01:09:55] [INFO]: Configuration applied successfully.
+[2024-12-20 01:09:55] [INFO]: Successfully loaded certificates.
+[2024-12-20 01:09:55] [INFO]: Server started, listening on: 192.168.1.129:5000
+[2024-12-20 01:10:00] [INFO]: Connection from ('192.168.1.129', 53648)
+[2024-12-20 01:10:00] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Expected data length: 61 bytes
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Received 61 bytes from client.
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Deserialized data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Preparing data for sending to client...
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Formatted data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Sending the serialized data length via socket...
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Sending the serialized data via socket...
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Data sent successfully to client.
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [INFO]: Client admin - 192.168.1.129:53648 authenticated successfully.
+[2024-12-20 01:10:00] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [ERROR]: No data received from client (connection may be closed).
+[31m[2024-12-20 01:10:00] [ERROR]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [INFO]: Client admin disconnected.
+[2024-12-20 01:11:04] [INFO]: Connection from ('192.168.1.129', 53660)
+[2024-12-20 01:11:04] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Expected data length: 61 bytes
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Received 61 bytes from client.
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Deserialized data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Preparing data for sending to client...
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Formatted data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Sending the serialized data length via socket...
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Sending the serialized data via socket...
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Data sent successfully to client.
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [INFO]: Client admin - 192.168.1.129:53660 authenticated successfully.
+[2024-12-20 01:11:04] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [ERROR]: No data received from client (connection may be closed).
+[31m[2024-12-20 01:11:04] [ERROR]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [INFO]: Client admin disconnected.
+[2024-12-20 01:22:30] [INFO]: Configuration applied successfully.
+[2024-12-20 01:22:30] [INFO]: Successfully loaded certificates.
+[2024-12-20 01:22:30] [INFO]: Server started, listening on: 192.168.1.129:5000
+[2024-12-20 01:22:33] [INFO]: Connection from ('192.168.1.129', 53818)
+[2024-12-20 01:22:33] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Expected data length: 61 bytes
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Received 61 bytes from client.
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Deserialized data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Preparing data for sending to client...
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Formatted data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Sending the serialized data length via socket...
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Sending the serialized data via socket...
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Data sent successfully to client.
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [INFO]: Client admin - 192.168.1.129:53818 authenticated successfully.
+[2024-12-20 01:22:33] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [ERROR]: No data received from client (connection may be closed).
+[31m[2024-12-20 01:22:33] [ERROR]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [INFO]: Client admin disconnected.
+[2024-12-20 01:31:34] [INFO]: Configuration applied successfully.
+[2024-12-20 01:31:34] [INFO]: Successfully loaded certificates.
+[2024-12-20 01:31:34] [INFO]: Server started, listening on: 192.168.1.129:5000
+[2024-12-20 01:31:58] [INFO]: Connection from ('192.168.1.129', 54043)
+[2024-12-20 01:31:58] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Expected data length: 61 bytes
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Received 61 bytes from client.
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Deserialized data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Preparing data for sending to client...
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Formatted data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Sending the serialized data length via socket...
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Sending the serialized data via socket...
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Data sent successfully to client.
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [INFO]: Client admin - 192.168.1.129:54043 authenticated successfully.
+[2024-12-20 01:31:58] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [ERROR]: No data received from client (connection may be closed).
+[31m[2024-12-20 01:31:58] [ERROR]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [INFO]: Client admin disconnected.
+[2024-12-20 01:33:34] [INFO]: Connection from ('192.168.1.129', 54081)
+[2024-12-20 01:33:34] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Expected data length: 61 bytes
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Received 61 bytes from client.
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Deserialized data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Preparing data for sending to client...
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Formatted data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Sending the serialized data length via socket...
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Sending the serialized data via socket...
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Data sent successfully to client.
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [INFO]: Client admin - 192.168.1.129:54081 authenticated successfully.
+[2024-12-20 01:33:34] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:46] [DEBUG]: Expected data length: 47 bytes
+[35m[2024-12-20 01:33:46] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:46] [DEBUG]: Received 47 bytes from client.
+[35m[2024-12-20 01:33:46] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:46] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:33:46] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:46] [DEBUG]: Deserialized data: {'action': 2, 'sub-action': 1, 'data': 'admin'}
+[35m[2024-12-20 01:33:46] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:46] [DEBUG]: Client admin is ready for file transfer.
+[35m[2024-12-20 01:33:46] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:46] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 01:33:46] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:49:05] [ERROR]: No data received from client (connection may be closed).
+[31m[2024-12-20 01:49:05] [ERROR]: NoneType: None
+[37m
+[2024-12-20 01:49:05] [INFO]: Client admin disconnected.
+[2024-12-20 02:11:02] [INFO]: Configuration applied successfully.
+[2024-12-20 02:11:02] [INFO]: Successfully loaded certificates.
+[2024-12-20 02:11:02] [INFO]: Server started, listening on: 192.168.1.129:5000
+[2024-12-20 02:11:07] [INFO]: Connection from ('192.168.1.129', 54538)
+[2024-12-20 02:11:07] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Expected data length: 61 bytes
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Received 61 bytes from client.
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Deserialized data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Preparing data for sending to client...
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Formatted data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Serializing the data...
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Sending the serialized data length via socket...
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Sending the serialized data via socket...
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Data sent successfully to client.
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [INFO]: Client admin - 192.168.1.129:54538 authenticated successfully.
+[2024-12-20 02:11:07] [DEBUG]: Preparing to receive data from client...
+[2024-12-20 02:11:07] [INFO]: Closing connection from ('192.168.1.129', 54538)
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: CCH-RFC-00-02-01 Error: [WinError 10038] An operation was attempted on something that is not a socket
+[35m[2024-12-20 02:11:07] [DEBUG]: Traceback (most recent call last):
+  File "C:\Users\filip\Desktop\RefactoredCentralizedFaIDS\Refactored-Centralized-FaIDS\FaIDS - Server\client_communication_helper.py", line 105, in receive_from_client
+    serialized_data_len_bytes = socket.recv(4)
+                                ^^^^^^^^^^^^^^
+  File "c:\Essential Programs\Python312\Lib\ssl.py", line 1236, in recv
+    return super().recv(buflen, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+[37m
+[2024-12-20 02:11:07] [ERROR]: Error receiving data from client...
+[2024-12-20 02:11:07] [INFO]: Client admin disconnected.
+[2024-12-20 02:11:48] [INFO]: Configuration applied successfully.
+[2024-12-20 02:11:48] [INFO]: Successfully loaded certificates.
+[2024-12-20 02:11:48] [INFO]: Server started, listening on: 192.168.1.129:5000
+[2024-12-20 02:11:52] [INFO]: Connection from ('192.168.1.129', 54567)
+[2024-12-20 02:11:52] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Expected data length: 61 bytes
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Received 61 bytes from client.
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Deserialized data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Preparing data for sending to client...
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Formatted data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Serializing the data...
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Sending the serialized data length via socket...
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Sending the serialized data via socket...
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Data sent successfully to client.
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [INFO]: Client admin - 192.168.1.129:54567 authenticated successfully.
+[2024-12-20 02:11:52] [DEBUG]: Preparing to receive data from client...
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:14:30] [INFO]: Configuration applied successfully.
+[2024-12-20 02:14:30] [INFO]: Successfully loaded certificates.
+[2024-12-20 02:14:30] [INFO]: Server started, listening on: 192.168.1.129:5000
+[2024-12-20 02:17:54] [INFO]: Configuration applied successfully.
+[2024-12-20 02:17:54] [INFO]: Successfully loaded certificates.
+[2024-12-20 02:17:54] [INFO]: Server started, listening on: 192.168.1.129:5000
+[2024-12-20 02:18:01] [INFO]: Connection from ('192.168.1.129', 54646)
+[2024-12-20 02:18:01] [DEBUG]: Preparing to receive data from client...
+[2024-12-20 02:18:01] [DEBUG]: Expected data length: 61 bytes
+[2024-12-20 02:18:01] [DEBUG]: Received 61 bytes from client.
+[2024-12-20 02:18:01] [DEBUG]: Deserializing the data...
+[2024-12-20 02:18:01] [DEBUG]: Deserialized data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[2024-12-20 02:18:01] [DEBUG]: Preparing data for sending to client...
+[2024-12-20 02:18:01] [DEBUG]: Formatted data: {'action': 0, 'sub-action': 0, 'data': True}
+[2024-12-20 02:18:01] [DEBUG]: Serializing the data...
+[2024-12-20 02:18:01] [DEBUG]: Sending the serialized data length via socket...
+[2024-12-20 02:18:01] [DEBUG]: Sending the serialized data via socket...
+[2024-12-20 02:18:01] [DEBUG]: Data sent successfully to client.
+[2024-12-20 02:18:01] [INFO]: Client admin - 192.168.1.129:54646 authenticated successfully.
+[2024-12-20 02:18:01] [DEBUG]: Preparing to receive data from client...
+[2024-12-20 04:26:01] [ERROR]: No data received from client (connection may be closed).
+[2024-12-20 04:26:01] [INFO]: Client admin disconnected.

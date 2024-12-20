@@ -14,9 +14,9 @@ def server_listener_main(configuration, key_path, cert_path):
         context.load_cert_chain(certfile=cert_path, keyfile=key_path)
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_sock:
             server_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-            server_sock.bind((configuration["server_bind_address"], int(configuration["server_port"])))
+            server_sock.bind((configuration["server_ip_address"], int(configuration["server_port"])))
             server_sock.listen(5)
-            log(f"Server started, listening on: {configuration["server_bind_address"]}:{configuration["server_port"]}", 3)
+            log(f"Server started, listening on: {configuration["server_ip_address"]}:{configuration["server_port"]}", 3)
             with context.wrap_socket(server_sock, server_side=True) as secure_server_sock:
                 while True:
                     try:
@@ -51,10 +51,6 @@ def server_listener_main(configuration, key_path, cert_path):
                     except Exception as error:
                         log(f"SL-SLM-00-02-03 Error: {error}", 4)
                         log("Unexpected error on server listener.", 1)
-                    finally:
-                        log(f"Closing connection from {client_addr_port}", 3)
-                        client_connection.close()
-                        continue
     except ssl.SSLError as ssl_error:
         log(f"SL-SLM-00-01-01 SSL error: {ssl_error}", 4)
         log("An issue occurred while setting up the secure socket.", 1)

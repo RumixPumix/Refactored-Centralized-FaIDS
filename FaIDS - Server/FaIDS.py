@@ -2,6 +2,8 @@ from configuration_module import configuration_handler
 from certificate_module import certificate_handler
 from server_listener import server_listener_main
 
+configuration = {}
+
 if __name__ == "__main__":
     configuration = configuration_handler()
     try:
@@ -14,4 +16,3 @@ if __name__ == "__main__":
     except Exception as error:
         input("Press Enter to exit...")
         exit()
-    

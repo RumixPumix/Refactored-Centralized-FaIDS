@@ -56,7 +56,7 @@ def local_auth():
     print(f"Welcome {username}, do you wish to continue as this user?")
     try:
         if input("Continue Y/N: ").lower() == "y":
-            return(username, password)
+            return username, password
         else:
             register_user()
     except ValueError:
@@ -66,4 +66,4 @@ def local_auth():
         log(f"Unknown error occured", 1)
         exit()
 
-from logging import log, clear_console
+from logging_module import log, clear_console

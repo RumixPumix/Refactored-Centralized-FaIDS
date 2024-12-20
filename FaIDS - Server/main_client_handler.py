@@ -1,5 +1,5 @@
 import threading
-from client_communication_helper import send_to_client, receive_from_client
+from client_communication_helper import send_to_client, receive_from_client, transfer_file
 from logging_module import log
 
 users_ready_for_file_transfer = {}
@@ -11,10 +11,13 @@ authenticated_users_lock = threading.Lock()
 def file_sending_action_handler(client_socket, client_request, client_username):
     match client_request["sub-action"]:
         case 1:
+            log(f"Client {client_username} requested users ready for file transfer.", 4)
             with users_ready_for_file_transfer_lock:
                 username_list = list(users_ready_for_file_transfer.keys())
-            send_to_client(client_socket, 1, 1, username_list)
-            log(f"Client {client_username} requested users ready for file transfer.", 4)
+            if send_to_client(client_socket, 1, 1, username_list):
+                log(f"Sent users ready for file transfer to {client_username}.", 4)
+            else:
+                log(f"Failed to send users ready for file transfer to {client_username}.", 2)
         case 2:
             client_data = client_request["data"]
             if not client_data:
@@ -37,9 +40,21 @@ def file_sending_action_handler(client_socket, client_request, client_username):
                     log(f"Couldn't extract socket object for username: {target_username}", 1)
                     return
                 request_data = {"from_user": client_username, "file_name": file_name}
-                target_client_response = send_to_client(target_socket, 2, 2, request_data)
-                if not target_client_response:
+                if not send_to_client(target_socket, 2, 2, request_data):
                     log(f"Failed to send file sending request to {target_username}.", 2)
+                    return
+                target_client_response = receive_from_client(target_socket)
+                if not target_client_response:
+                    log(f"Failed to receive response from {target_username}.", 2)
+                    return
+                if target_client_response == True:
+                    if not send_to_client(client_socket, 1, 3, True):
+                        log(f"Failed to send file sending confirmation to {client_username}.", 2)
+                        return
+                    log(f"Initiating file transfer from {client_username} to {target_username}.", 4)
+                    transfer_file(client_socket, target_socket)
+                else:
+                    log(f"Failed to initiate file transfer from {client_username} to {target_username}.", 2)
                     return
                 #TU TREBA POSLAT SENDER DA JE SVE OK I DA SALJE FILE.
         case 3:
@@ -49,6 +64,24 @@ def file_sending_action_handler(client_socket, client_request, client_username):
                 log(f"File sending starting to {client_username}.", 4)
             else:
                 log(f"Client {client_username} not ready for file transfer.", 4)
+        case None:
+            log(f"Client {client_username} sent an invalid sub-action.", 2)
+            return
+    return
+
+def file_receiving_action_handler(client_socket, client_request, client_username):
+    match client_request["sub-action"]:
+        case 1:
+            with users_ready_for_file_transfer_lock:
+                users_ready_for_file_transfer[client_username] = client_socket
+            log(f"Client {client_username} is ready for file transfer.", 4)
+        case 2:
+            with users_ready_for_file_transfer_lock:
+                if client_username in users_ready_for_file_transfer:
+                    del users_ready_for_file_transfer[client_username]
+            log(f"Client {client_username} is no longer ready for file transfer.", 4)
+        case 3:
+            log(f"Client {client_username} {client_request["data"]} file sending request.", 4)
         case None:
             log(f"Client {client_username} sent an invalid sub-action.", 2)
             return

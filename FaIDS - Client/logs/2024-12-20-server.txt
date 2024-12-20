@@ -1,0 +1,531 @@
+[2024-12-20 00:50:43] [INFO]: Configuration applied successfully.
+[2024-12-20 00:50:43] [INFO]: Configuration loaded successfully...
+[2024-12-20 00:50:47] [DEBUG]: Preparing data for sending to server...
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Formatted data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Serializing the data...
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Sending the serialized data length via socket_obj...
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Sending the serialized data via socket_obj...
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Data sent successfully to server.
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Preparing to receive data from server...
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Expected data length: 44 bytes
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Received 44 bytes from server.
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Deserialized data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [DEBUG]: Received response from server, Authentication successfull
+[35m[2024-12-20 00:50:47] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:50:47] [INFO]: Successfully authenticated with server!
+[2024-12-20 00:53:33] [INFO]: Configuration applied successfully.
+[2024-12-20 00:53:33] [INFO]: Configuration loaded successfully...
+[2024-12-20 00:53:35] [DEBUG]: Preparing data for sending to server...
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Formatted data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Serializing the data...
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Sending the serialized data length via socket_obj...
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Sending the serialized data via socket_obj...
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Data sent successfully to server.
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Preparing to receive data from server...
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Expected data length: 44 bytes
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Received 44 bytes from server.
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Deserialized data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [DEBUG]: Received response from server, Authentication successfull
+[35m[2024-12-20 00:53:35] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 00:53:35] [INFO]: Successfully authenticated with server!
+[2024-12-20 01:03:43] [INFO]: Configuration applied successfully.
+[2024-12-20 01:03:43] [INFO]: Configuration loaded successfully...
+[2024-12-20 01:03:45] [DEBUG]: Preparing data for sending to server...
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Formatted data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Sending the serialized data length via socket_obj...
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Sending the serialized data via socket_obj...
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Data sent successfully to server.
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Preparing to receive data from server...
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Expected data length: 44 bytes
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Received 44 bytes from server.
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Deserialized data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [DEBUG]: Received response from server, Authentication successfull
+[35m[2024-12-20 01:03:45] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:03:45] [INFO]: Successfully authenticated with server!
+[2024-12-20 01:05:28] [INFO]: Configuration applied successfully.
+[2024-12-20 01:05:28] [INFO]: Configuration loaded successfully...
+[2024-12-20 01:05:30] [DEBUG]: Preparing data for sending to server...
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Formatted data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Sending the serialized data length via socket_obj...
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Sending the serialized data via socket_obj...
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Data sent successfully to server.
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Preparing to receive data from server...
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Expected data length: 44 bytes
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Received 44 bytes from server.
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Deserialized data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [DEBUG]: Received response from server, Authentication successfull
+[35m[2024-12-20 01:05:30] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:05:30] [INFO]: Successfully authenticated with server!
+[2024-12-20 01:07:20] [INFO]: Configuration applied successfully.
+[2024-12-20 01:07:20] [INFO]: Configuration loaded successfully...
+[2024-12-20 01:07:21] [DEBUG]: Preparing data for sending to server...
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Formatted data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Sending the serialized data length via socket_obj...
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Sending the serialized data via socket_obj...
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Data sent successfully to server.
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Preparing to receive data from server...
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Expected data length: 44 bytes
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Received 44 bytes from server.
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Deserialized data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [DEBUG]: Received response from server, Authentication successfull
+[35m[2024-12-20 01:07:21] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:07:21] [INFO]: Successfully authenticated with server!
+[2024-12-20 01:09:34] [INFO]: Configuration applied successfully.
+[2024-12-20 01:09:34] [INFO]: Configuration loaded successfully...
+[2024-12-20 01:09:38] [DEBUG]: SCM-RA-00-01-01 Error: [WinError 10061] No connection could be made because the target machine actively refused it
+[35m[2024-12-20 01:09:38] [DEBUG]: Traceback (most recent call last):
+  File "C:\Users\filip\Desktop\RefactoredCentralizedFaIDS\Refactored-Centralized-FaIDS\FaIDS - Client\server_authentication_module.py", line 30, in remote_auth
+    socket_stream.connect((server_ip, server_port))
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+[37m
+[2024-12-20 01:09:38] [ERROR]: Error creating secure socket to connect to server!
+[31m[2024-12-20 01:09:38] [ERROR]: Traceback (most recent call last):
+  File "C:\Users\filip\Desktop\RefactoredCentralizedFaIDS\Refactored-Centralized-FaIDS\FaIDS - Client\server_authentication_module.py", line 30, in remote_auth
+    socket_stream.connect((server_ip, server_port))
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+[37m
+[2024-12-20 01:09:57] [INFO]: Configuration applied successfully.
+[2024-12-20 01:09:57] [INFO]: Configuration loaded successfully...
+[2024-12-20 01:10:00] [DEBUG]: Preparing data for sending to server...
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Formatted data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Sending the serialized data length via socket_obj...
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Sending the serialized data via socket_obj...
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Data sent successfully to server.
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Preparing to receive data from server...
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Expected data length: 44 bytes
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Received 44 bytes from server.
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Deserialized data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [DEBUG]: Received response from server, Authentication successfull
+[35m[2024-12-20 01:10:00] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:10:00] [INFO]: Successfully authenticated with server!
+[2024-12-20 01:11:02] [INFO]: Configuration applied successfully.
+[2024-12-20 01:11:02] [INFO]: Configuration loaded successfully...
+[2024-12-20 01:11:04] [DEBUG]: Preparing data for sending to server...
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Formatted data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Sending the serialized data length via socket_obj...
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Sending the serialized data via socket_obj...
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Data sent successfully to server.
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Preparing to receive data from server...
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Expected data length: 44 bytes
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Received 44 bytes from server.
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Deserialized data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [DEBUG]: Received response from server, Authentication successfull
+[35m[2024-12-20 01:11:04] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:11:04] [INFO]: Successfully authenticated with server!
+[2024-12-20 01:22:31] [INFO]: Configuration applied successfully.
+[2024-12-20 01:22:31] [INFO]: Configuration loaded successfully...
+[2024-12-20 01:22:33] [DEBUG]: Preparing data for sending to server...
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Formatted data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Sending the serialized data length via socket_obj...
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Sending the serialized data via socket_obj...
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Data sent successfully to server.
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Preparing to receive data from server...
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Expected data length: 44 bytes
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Received 44 bytes from server.
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Deserialized data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [DEBUG]: Received response from server, Authentication successfull
+[35m[2024-12-20 01:22:33] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:22:33] [INFO]: Successfully authenticated with server!
+[2024-12-20 01:31:55] [INFO]: Configuration applied successfully.
+[2024-12-20 01:31:55] [INFO]: Configuration loaded successfully...
+[2024-12-20 01:31:58] [DEBUG]: Preparing data for sending to server...
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Formatted data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Sending the serialized data length via socket_obj...
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Sending the serialized data via socket_obj...
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Data sent successfully to server.
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Preparing to receive data from server...
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Expected data length: 44 bytes
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Received 44 bytes from server.
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Deserialized data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [DEBUG]: Received response from server, Authentication successfull
+[35m[2024-12-20 01:31:58] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:31:58] [INFO]: Successfully authenticated with server!
+[2024-12-20 01:33:31] [INFO]: Configuration applied successfully.
+[2024-12-20 01:33:31] [INFO]: Configuration loaded successfully...
+[2024-12-20 01:33:34] [DEBUG]: Preparing data for sending to server...
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Formatted data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Sending the serialized data length via socket_obj...
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Sending the serialized data via socket_obj...
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Data sent successfully to server.
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Preparing to receive data from server...
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Expected data length: 44 bytes
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Received 44 bytes from server.
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Deserialized data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [DEBUG]: Received response from server, Authentication successfull
+[35m[2024-12-20 01:33:34] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:34] [INFO]: Successfully authenticated with server!
+[2024-12-20 01:33:43] [WARNING]: No files are placed inside /files/send folder!
+[2024-12-20 01:33:46] [DEBUG]: Preparing data for sending to server...
+[35m[2024-12-20 01:33:46] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:46] [DEBUG]: Formatted data: {'action': 2, 'sub-action': 1, 'data': 'admin'}
+[35m[2024-12-20 01:33:46] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:46] [DEBUG]: Serializing the data...
+[35m[2024-12-20 01:33:46] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:46] [DEBUG]: Sending the serialized data length via socket_obj...
+[35m[2024-12-20 01:33:46] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:46] [DEBUG]: Sending the serialized data via socket_obj...
+[35m[2024-12-20 01:33:46] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:46] [DEBUG]: Data sent successfully to server.
+[35m[2024-12-20 01:33:46] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:46] [DEBUG]: Sent request successfully...
+[35m[2024-12-20 01:33:46] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 01:33:46] [DEBUG]: Preparing to receive data from server...
+[35m[2024-12-20 01:33:46] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:10:48] [INFO]: Configuration applied successfully.
+[2024-12-20 02:10:48] [INFO]: Configuration loaded successfully...
+[2024-12-20 02:11:07] [INFO]: Connecting to server at 192.168.1.129:5000...
+[2024-12-20 02:11:07] [INFO]: Successfully connected at 192.168.1.129:5000.
+[2024-12-20 02:11:07] [INFO]: Logging in...
+[2024-12-20 02:11:07] [DEBUG]: Preparing data for sending to server...
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Formatted data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Serializing the data...
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Sending the serialized data length via socket_obj...
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Sending the serialized data via socket_obj...
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Data sent successfully to server.
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Preparing to receive data from server...
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Expected data length: 44 bytes
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Received 44 bytes from server.
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Deserialized data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [DEBUG]: Received response from server, Authentication successfull
+[35m[2024-12-20 02:11:07] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:07] [INFO]: Successfully authenticated with server!
+[2024-12-20 02:11:50] [INFO]: Configuration applied successfully.
+[2024-12-20 02:11:50] [INFO]: Configuration loaded successfully...
+[2024-12-20 02:11:52] [INFO]: Connecting to server at 192.168.1.129:5000...
+[2024-12-20 02:11:52] [INFO]: Successfully connected at 192.168.1.129:5000.
+[2024-12-20 02:11:52] [INFO]: Logging in...
+[2024-12-20 02:11:52] [DEBUG]: Preparing data for sending to server...
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Formatted data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Serializing the data...
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Sending the serialized data length via socket_obj...
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Sending the serialized data via socket_obj...
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Data sent successfully to server.
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Preparing to receive data from server...
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Expected data length: 44 bytes
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Received 44 bytes from server.
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Deserializing the data...
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Deserialized data: {'action': 0, 'sub-action': 0, 'data': True}
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [DEBUG]: Received response from server, Authentication successfull
+[35m[2024-12-20 02:11:52] [DEBUG]: NoneType: None
+[37m
+[2024-12-20 02:11:52] [INFO]: Successfully authenticated with server!
+[2024-12-20 02:17:59] [INFO]: Configuration applied successfully.
+[2024-12-20 02:17:59] [INFO]: Configuration loaded successfully...
+[2024-12-20 02:18:01] [INFO]: Connecting to server at 192.168.1.129:5000...
+[2024-12-20 02:18:01] [INFO]: Successfully connected at 192.168.1.129:5000.
+[2024-12-20 02:18:01] [INFO]: Logging in...
+[2024-12-20 02:18:01] [DEBUG]: Preparing data for sending to server...
+[2024-12-20 02:18:01] [DEBUG]: Formatted data: {'action': 4, 'sub-action': 0, 'data': ['admin', 'Pa$$w0rd']}
+[2024-12-20 02:18:01] [DEBUG]: Serializing the data...
+[2024-12-20 02:18:01] [DEBUG]: Sending the serialized data length via socket_obj...
+[2024-12-20 02:18:01] [DEBUG]: Sending the serialized data via socket_obj...
+[2024-12-20 02:18:01] [DEBUG]: Data sent successfully to server.
+[2024-12-20 02:18:01] [DEBUG]: Preparing to receive data from server...
+[2024-12-20 02:18:01] [DEBUG]: Expected data length: 44 bytes
+[2024-12-20 02:18:01] [DEBUG]: Received 44 bytes from server.
+[2024-12-20 02:18:01] [DEBUG]: Deserializing the data...
+[2024-12-20 02:18:01] [DEBUG]: Deserialized data: {'action': 0, 'sub-action': 0, 'data': True}
+[2024-12-20 02:18:01] [DEBUG]: Received response from server, Authentication successfull
+[2024-12-20 02:18:01] [INFO]: Successfully authenticated with server!
